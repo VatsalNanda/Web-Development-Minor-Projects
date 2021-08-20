@@ -1,0 +1,46 @@
+#clockContainer{
+  margin: auto;
+  position: relative;
+
+  height: 60vw; /*vw stands for viewport which basically adjusts the screen according to the device*/
+  width:60vw;
+  background: url(clock.png) no-repeat;
+  background-size: 100%;
+
+
+}
+#hours, #minutes, #seconds{
+  position: absolute;
+  background: black;
+  border-radius: 10px;
+  transform-origin: bottom;
+
+}
+#hours{
+  width: 0.5%;
+  height: 15%;
+  top: 22%;
+  left: 49.3%;
+  opacity: 0.8;
+
+}
+#minutes{
+  width: 0.5%;
+  height: 20%;
+  top:15%;
+  left: 49.3%;
+  opacity: 0.8;
+
+}
+#seconds{
+  width: 0.5%;
+  height: 25%;
+  top: 12%;
+  left: 49.3%;
+  opacity: 0.8;
+
+
+
+
+
+}
